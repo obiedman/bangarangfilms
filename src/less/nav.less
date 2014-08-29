@@ -1,0 +1,67 @@
+.nav {
+	position: relative;
+	text-decoration: none;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+  @media (min-width: @screen-sm) {
+	.navbar-link-placement(@padding: 4px);
+  }
+}
+
+.nav a {
+	.link-transition(1s);
+  text-decoration: none;
+  @media (min-width: @screen-lg) {
+    font-size: 16px;
+  }
+}
+
+.nav li {
+	padding: 0px;
+  display: inline;
+  text-align: center;
+  position: relative;
+  @media (min-width: 768px){
+    padding: 4px;
+  }
+}
+
+.navbar-brand img {
+	position: relative;
+  width: 200px;
+  @media (min-width: @screen-sm) {
+	width: 300px;
+  top: 11px; 
+  }
+}
+
+.social span {
+  position: relative;
+  top: 9px;
+  margin: 0 auto;
+}
+
+#fb_logo {
+	width: @social-icon-size;
+	height: @social-icon-size;
+	background-color: @social-bg;
+	.link-transition(1s);
+	.link-hover;
+}
+
+#tw_logo {
+	width: @social-icon-size;
+	height: @social-icon-size;
+	background-color: @social-bg;
+	.link-transition(1s);
+	.link-hover;
+}
+
+
+#yt_logo {
+	width: @social-icon-size;
+	height: @social-icon-size;
+	background-color: @social-bg;
+	.link-transition(1s);
+	.link-hover;
+}

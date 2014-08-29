@@ -1,0 +1,26 @@
+.link-transition(@length) {
+  -webkit-transition: all @length ease 0s;
+  -moz-transition: all @length ease 0s;
+  -ms-transition: all @length ease 0s;
+  -o-transition: all @length ease 0s;
+  transition: all @length ease 0s;
+}
+
+.link-hover() {
+  &:hover {
+    background-color: @brand-primary;
+  }
+}
+
+//places links even with bottom of (non-hanging) letters in logo img
+// both parameters are optional, defaulting to variables defined elsewhere
+.navbar-link-placement(@font-size: @font-size-base; @padding: @navbar-padding-vertical) {
+  @top: (@logo-top + @font-size + @padding);
+  top: @top;
+}
+
+.things-hover() {
+  &:hover {
+    opacity: 1;
+  }
+}
