@@ -1,0 +1,55 @@
+.content-row {
+  .make-row(0);
+}
+
+.info {
+  .make-xs-column(12);
+  background: url("../../images/bg_contact_bg.png") no-repeat;
+  min-height: 500px;
+  background-position: right 25px;
+  @media (min-width: @screen-md){
+    background-position: top right 100px;
+  }
+
+}
+
+.background {
+  .make-sm-column(6);
+  display: none;
+  @media (min-width: @screen-sm){
+    display: block;
+  }
+}
+
+.background img {
+  position: relative;
+  top: 40px
+
+}
+
+.move-left {
+  position: relative;
+  left: 10%;
+  top: 40px;
+  margin-bottom: 0;
+  line-height: 0.5;
+  font-weight: bold;
+  @media (min-width: @screen-md){
+    left: 20%;
+  }
+}
+
+h2.move-left {
+  @media (max-width: @screen-xs){
+    font-size: 44px;
+  }
+}
+
+h3.move-left {
+  @media (max-width: @screen-sm){
+    font-size: 18px;
+  }
+}
+.employee {
+  margin-bottom: 60px;
+}

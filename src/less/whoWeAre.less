@@ -1,0 +1,42 @@
+.roles {
+  @media (min-width: @screen-sm){
+  }
+
+  h1 {
+    margin: 0;
+    padding: 0;
+    @media (max-width: @screen-sm) {
+      font-size: 36px;
+    }
+  }
+
+  h3{
+    margin-top: 0;
+    font-size: 28px;
+    @media (max-width: @screen-sm) {
+      font-size: 22px;
+    }
+  }
+
+  h4 {
+    @media (min-width: @screen-md){
+      font-size: 20px;
+    }
+  }
+}
+
+.employee-photo {
+  .make-xs-column(12, 0);
+  .make-sm-column(6, 0);
+}
+
+#kevinInfo, #jjInfo {
+  @media(min-width: @screen-md){
+    font-size: 28px;
+  }
+
+  @media(min-width: @screen-lg){
+    font-size: 32px;
+  }
+}
+
