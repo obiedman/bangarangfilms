@@ -38,29 +38,67 @@
 
 .thumbnail {
   margin-bottom: 0;
+  &:hover {
+    color: white;
+  }
 }
 
-.caption {  
-  position: absolute;  
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  padding: 4px 20px 4px 15px; 
-  font-size:0.8em;
-  opacity: 0;
-  border-radius: 4px;
+@media (min-width: @screen-sm) {
+  .hover-color {  
+    position: absolute;  
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 4px 20px 4px 15px; 
+    font-size:0.8em;
+    opacity: 0;
+    .link-transition(300ms);
+    z-index: 1;
+  }
+
+  .thumb-hover-primary {
+    background-color: @brand-primary-dull; 
+  }
+
+  .thumb-hover-secondary {
+    background-color: @brand-secondary-dull;
+  }
+
+}
+
+.no-opacity .thumb-hover-secondary, .no-opacity .thumb-hover-primary {
+  background-color: transparent;
+}
+
+.mask:hover .hover-color {  
+    opacity: 1;  
+} 
+
+.darken {
   .link-transition(300ms);
 }
 
-.thumb-hover-primary {
-  background-color: @brand-primary-dull; 
+.mask:hover .darken {
+  opacity: 0.5;
 }
 
-.thumb-hover-secondary {
-  background-color: @brand-secondary-dull;
+
+.modal-dialog {
+  // margin: 0;
+  // position: absolute;
+  // top: 50%;
+  // left: 50%;
+  position: relative;
+  top: 150px;
+
+  @media (max-width: @screen-sm){
+    width: 100%;
+  }
 }
 
-.mask:hover .caption {  
-    opacity: 1;  
-} 
+.video-choice {
+  border: 0;
+  border-radius:0;
+  padding: 0;
+}

@@ -1,37 +1,57 @@
 .nav {
-	position: relative;
-	text-decoration: none;
-	word-spacing: 1px;
-	letter-spacing: 1px;
+  position: relative;
+  text-decoration: none;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  font-size: 18px;
+  margin-bottom:  10px;
   @media (min-width: @screen-sm) {
-	.navbar-link-placement(@padding: 4px);
+	 top: 15px;
+   font-size: 15px;
   }
+
+  @media (min-width: @screen-md){
+    font-size: 18px;
+  }
+}
+
+.navbar-collapse.in {
+  overflow-y: hidden;
+}
+
+.navbar-default {
+  border: none;
+  margin: 0;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  background-color: transparent;
 }
 
 .nav a {
-	.link-transition(1s);
+.link-transition(1s);
   text-decoration: none;
-  @media (min-width: @screen-lg) {
-    font-size: 16px;
-  }
 }
 
 .nav li {
-	padding: 0px;
+  padding: 9px;
   display: inline;
   text-align: center;
   position: relative;
-  @media (min-width: 768px){
+  @media (min-width: @screen-sm){
     padding: 4px;
   }
 }
 
+.nav ul:last-child {
+  padding-top: 24px;
+}
+
 .navbar-brand img {
-	position: relative;
+  position: relative;
   width: 200px;
+  margin-bottom: 0;
   @media (min-width: @screen-sm) {
 	width: 300px;
-  top: 11px; 
   }
 }
 
@@ -39,6 +59,9 @@
   position: relative;
   top: 9px;
   margin: 0 auto;
+  @media (max-width: @screen-sm){
+    padding: 10px;
+  }
 }
 
 #fb_logo {
@@ -64,4 +87,19 @@
 	background-color: @social-bg;
 	.link-transition(1s);
 	.link-hover;
+}
+
+.text-logo {
+  position: relative;
+  top: 15px;
+  font-family: bangarant_font;
+  font-size: 25px;
+
+  @media (min-width: @screen-sm){
+    font-size: 45px;
+  }
+}
+
+.text-logo:before{
+  content: "\e600\e601\e604\e602\e601\e603\e601\e604\e602 \e606\e607\e605\e609\e608";
 }
