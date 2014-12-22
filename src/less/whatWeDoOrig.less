@@ -1,6 +1,6 @@
 .category-thumb {
   .make-xs-column(6, 0);
-  .make-xs-column(4, 0);
+  .make-sm-column(4, 0);
   .thumbnail {
     border: 2px solid white;
     border-radius: 0;
@@ -12,12 +12,15 @@
   opacity: 0.7;
   .things-hover();
   .link-transition(1s);
+  text-align: center;
+  text-decoration: none !important;
   h3 {
-    position: absolute;
-    margin-bottom: 0;
-    left: 5px;
-    bottom: 5px;
+    position: relative;
+    padding-top: 22%;
+    margin: auto auto;
+    font-weight: bold;
     z-index: 1;
-    font-size: 36px;
+    font-size: 44px;
+    .link-transition(0.5s);
   }
 }

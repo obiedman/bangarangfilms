@@ -11,6 +11,7 @@ $(document).ready(function() {
   if ($(window).width() > 768){
     jjInfo.innerHTML = jjBlurb;
     kevinInfo.innerHTML = kevinBlurb;
+    $("#kevRoles").height($("#jjRoles").height()); 
   } else{
     jjInfoMobile.innerHTML = jjBlurb;
     kevinInfoMobile.innerHTML = kevinBlurb;

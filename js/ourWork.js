@@ -12,17 +12,3 @@ $(function(){
     $("#modalVideo").attr("src", srcVideo);
   });
 });
-
-
-// $(function(){
-//   $('.modal').on('shown.bs.modal', function(){
-//     $(this).find('.modal-dialog').css({
-//       'margin-top': function(){
-//         return -($(this).outerHeight() / 2);
-//       },
-//       'margin-left': function(){
-//         return -($(this).outerWidth() / 2);
-//       }
-//     });
-//   });
-// });

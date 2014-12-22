@@ -1,19 +1,17 @@
 var details = {
-  "look_alive" : {
-      "video" : "https://www.youtube.com/embed/42o1HCmFFpo",
+  "2way_camp" : {
+      "video" : "https://www.youtube.com/embed/NoFS1aVeF7g",
       "video_details" : {
-          "title" : "Look Alive",
-          "artist" : "Billy Dodge and the Emotions",
-          "blurb" : "A live performance filmed on two cameras with live recorded audio. Filmed on RED Scarlet and Canon 60D at Johnny D's in Cambridge, MA. (2013)"
+          "title" : "2Way Lacrosse Camp",
+          "blurb" : "Produced by Bangarang Films, this video was created for 2Way Lacrosse Camps. The video production, customer testimonials, b-roll, and professional editing create a compelling marketing video for 2Way Lacrosse Camps."
       }
     },
 
-  "illusory" : {
-    "video" : "https://www.youtube.com/embed/2wdTTmL6CA4",
+  "b4b" : {
+    "video" : "https://www.youtube.com/embed/yXmjtUPpv1I",
     "video_details" : {
-      "title" : "Illusory",
-      "artist" : "Billy Dodge ft. Eleanor Kaufman",
-      "blurb" : "A music video for Billy Dodge's song 'Illusory', featuring Eleanor Kaufman. Filmed on the RED Scarlet in Westport, MA and Horseneck Beach. (2013)"
+      "title" : "Beggin' 4 Bass",
+      "blurb" : "Join host Adam Guild as he travels the country searching for the best bass fishing spots our nation has to offer. Expect plenty of food, fun, and general debauchery as 'AG' brings his unique sense of humor to the locals of these legendary fishing holes. Produced by Bangarang Films."
     }
   },
   "nikes" : {
@@ -24,12 +22,11 @@ var details = {
       "blurb" : "A music video for Re-Up's song 'Nikes'. Filmed on the Sony EX-1 in Brighton, MA and Waltham, MA. (2010)"
     }
   },
-  "yellow_woman" : {
-    "video" : "https://www.youtube.com/embed/uh4GYgv_XUU?rel=0",
+  "and1_live" : {
+    "video" : "https://player.vimeo.com/video/39435121?title=0&amp;byline=0&amp;portrait=0&amp;color=4cff24",
     "video_details" : {
-      "title" : "Yellow Woman",
-      "artist" : "The Nate Wilson Group",
-      "blurb" : "A live performance with live recorded audio. Filmed on the Sony EX-1 at Church in Boston, MA. (2011)"
+      "title" : "And1 Live - Turks and Caicos",
+      "blurb" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     }
   },
 }
@@ -61,7 +58,7 @@ $(".video_link").click(function(){
   $(this).addClass("active");
   var video = details[$(this).data("video")];
   video_string = "<iframe class='embed-responsive-item padded' src=" + video["video"] + " allowfullscreen></iframe>"
-  details_string = "<div class='video_details' data-count='0'><span id='title-toggle' class='glyphicon glyphicon-chevron-down'>&nbsp;Hide</span><h2 class='text-primary'>" + video["video_details"]["title"] + "</h2><h3 class='text-secondary'>"+video["video_details"]["artist"] + "</h3><h3>" + video["video_details"]["blurb"] + "</h3></div>";
+  details_string = "<div class='video_details' data-count='0'><span id='title-toggle' class='glyphicon glyphicon-chevron-down'>&nbsp;Hide</span><h2 class='text-primary'>" + video["video_details"]["title"] + "</h3><h3>" + video["video_details"]["blurb"] + "</h3></div>";
   $("#change").html(video_string + details_string);
 
   $("#title-toggle").click(function(){

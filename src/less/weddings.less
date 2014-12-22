@@ -1,10 +1,65 @@
 .wedding-body {
   background: none;
-  background-color: #f2f2f2;
-  color: rgba(0,0,0,0.7)
+  background-color: #f9f9f9;
+  color: rgba(0,0,0,0.7);
 }
 
 #wedding-desc {
   text-align: justify;
   max-width: 750px;
+  margin: 30px auto 0 auto;
+}
+
+.wedding-body h1, .package-title {
+  font-family: 'Marck Script';
+  font-weight: normal;
+}
+
+#packages {
+  max-width: 500px;
+  margin: 80px auto;
+  background: #e0e0e0;
+  padding: 40px;
+  overflow: hidden;
+}
+
+@media(min-width: 1200px){
+  #packages {
+    max-width: 2000px;
+  }
+
+  .package {
+    width: 33%;
+    float: left;
+    height: 600px;
+    border-left: 2px solid #868686;
+    padding: 15px;
+  }
+
+  .package:first-child{
+    border-left: none;
+  }
+
+  .package-title {
+    text-align: center;
+  }
+}
+
+.link-dark {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.wedding-header {
+  cursor: initial;
+  @media(min-width: @screen-sm){
+    background: #dceaf5;
+  }
+}
+
+.container-fluid.blue {
+  background: #dceaf5;
+}
+
+.wedding-header .video-wrap {
+  border: 2px solid black;
 }

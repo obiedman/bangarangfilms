@@ -7,9 +7,9 @@
     <title>Bangarang Films</title>
 
     <link href="https://fonts.googleapis.com/css?family=BenchNine:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="src/less/styles.css" rel="stylesheet">
-
   </head>
   <body>
     <nav class="navbar navbar-default" role="navigation">
@@ -23,7 +23,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"><img src="images/header/bg_logo.png"></a>
+          <a class="navbar-brand" href="index.html"><span class="text-logo"></span></a>
         </div> <!-- .navbar-header -->
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -34,21 +34,18 @@
             <li><a href="ourWork.html">OUR WORK</a></li>
             <li><a href="contact.html">CONTACT</a></li>
             <li class="social">  
-              <span>
                 <a href="http://facebook.com/bangarangfilms" target="_blank">
-                  <img src="images/social/fb.png" id="fb_logo" />
+                  <!-- <img src="images/social/fb.png" id="fb_logo" /> -->
+                  <i class="fa fa-spacebook"></i>
                 </a>
-              </span>
-              <span>
                 <a href="http://twitter.com/bangarangfilms" target="_blank">
-                  <img src="images/social/tw.png" id="tw_logo" />
+                  <!-- <img src="images/social/tw.png" id="tw_logo" /> -->
+                  <i class="fa fa-tweeter"></i>
                 </a>
-              </span>
-              <span>
                 <a href="http://youtube.com/bangarangfilms" target="_blank">
-                  <img src="images/social/yt.png" id="yt_logo" />
+                  <!-- <img src="images/social/yt.png" id="yt_logo" /> -->
+                  <i class="fa fa-utuuuubeeee"></i>
                 </a>
-              </span>
             </li>
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -65,78 +62,60 @@
         <div class="category-thumb">
           <a href="new_music_videos.html" class="thumbnail videoThumbnail" data-video="nikes">
             <div class="embed-responsive embed-responsive-16by9">
-              <h3>Music</h3>
-              <video id="nikes" class="embed-responsive-item" loop>
-                <source src="videos/music/nikes03/nikes03.mp4.mp4" type="video/mp4"></source>
-                <source src="videos/music/nikes03/nikes03.webmsd.webm" type="video/webm"></source>
-                <source src="videos/music/nikes03/nikes03.oggtheora.ogv" type="video/ogg"></source>
-                <img src="videos/music/thumbs/nikes01.jpg" class="img-responsive" alt="Music" />
-              </video>
+              <h3>MUSIC</h3>
+              <div id="music_placeholder">
+                  <img src="videos/music/thumbs/nikes03.jpg" class="img-responsive" alt="Music" />
+              </div>
             </div>
           </a>
         </div>
         <div class="category-thumb">
           <a href="sports.html" class="thumbnail videoThumbnail" data-video="sports">
             <div class="embed-responsive embed-responsive-16by9">
-              <h3>Sports</h3>
-              <video id="sports" class="embed-responsive-item" loop>
-                <source src="videos/sports/2way01/2way01.mp4.mp4" type="video/mp4"></source>
-                <source src="videos/sports/2way01/2way01.webmsd.webm" type="video/webm"></source>
-                <source src="videos/sports/2way01/2way01.oggtheora.ogv" type="video/ogg"></source>
+              <h3>SPORTS</h3>
+              <div id="sports_placeholder">
                 <img src="videos/sports/thumbs/2way01.png" class="img-responsive" alt="Sports" />
-              </video>
+              </div>
             </div>
           </a>
         </div>
         <div class="category-thumb">
           <a href="#" class="thumbnail videoThumbnail" data-video="welding">
             <div class="embed-responsive embed-responsive-16by9">
-              <h3>Corporate</h3>
-              <video id="welding" class="embed-responsive-item" loop>
-                <source src="videos/corporate/welding02/welding_02.mp4.mp4" type="video/mp4"></source>
-                <source src="videos/corporate/welding02/welding_02.webmsd.webm" type="video/webm"></source>
-                <source src="videos/corporate/welding02/welding_02.oggtheora.ogv" type="video/ogg"></source>
+              <h3>CORPORATE</h3>
+              <div id="corp_placeholder">
                 <img src="videos/corporate/thumbs/welding02.jpg" class="img-responsive" alt="Corporate" />
-              </video>
+              </div>
             </div>
           </a>
         </div>
         <div class="category-thumb">
           <a href="commercials.html" class="thumbnail videoThumbnail" data-video="fountains">
             <div class="embed-responsive embed-responsive-16by9">
-              <h3>Commercials</h3>
-              <video id="fountains" class="embed-responsive-item" loop>
-                <source src="videos/commercials/fountains/fountains.mp4.mp4" type="video/mp4"></source>
-                <source src="videos/commercials/fountains/fountains.webmsd.webm" type="video/webm"></source>
-                <source src="videos/commercials/fountains/fountains.oggtheora.ogv" type="video/ogg"></source>
+              <h3>COMMERCIALS</h3>
+              <div id="commercials_placeholder">
                 <img src="videos/commercials/thumbs/fountains01.jpg" class="img-responsive" alt="Commercials" />
-              </video>
+              </div>
             </div>
           </a>
         </div>
         <div class="category-thumb">
           <a href="weddings.html" class="thumbnail videoThumbnail" data-video="weddings">
             <div class="embed-responsive embed-responsive-16by9">
-              <h3>Weddings</h3>
-              <video id="weddings" class="embed-responsive-item" loop>
-                <source src="videos/weddings/weddings03/weddings03.mp4.mp4" type="video/mp4"></source>
-                <source src="videos/weddings/weddings03/weddings03.webmsd.webm" type="video/webm"></source>
-                <source src="videos/weddings/weddings03/weddings03.oggtheora.ogv" type="video/ogg"></source>
+              <h3>WEDDINGS</h3>
+              <div id="weddings_placeholder">
                 <img src="videos/weddings/thumbs/weddings.jpg" class="img-responsive" alt="Weddings" />
-              </video>
+              </div>
             </div>
           </a>
         </div>
         <div class="category-thumb">
           <a href="#" class="thumbnail videoThumbnail" data-video="other">
             <div class="embed-responsive embed-responsive-16by9">
-              <h3>Other</h3>
-              <video id="other" class="embed-responsive-item" loop>
-                <source src="videos/other/beggin4bass/beggin4bass01.mp4.mp4" type="video/mp4"></source>
-                <source src="videos/other/beggin4bass/beggin4bass01.webmsd.webm" type="video/webm"></source>
-                <source src="videos/other/beggin4bass/beggin4bass01.oggtheora.ogv" type="video/ogg"></source>
+              <h3>OTHER</h3>
+              <div id="other_placeholder">
                 <img src="videos/other/thumbs/beggin4bass01.jpg" class="img-responsive" alt="Other" />
-              </video>
+            </div>
             </div>
           </a>
         </div>
@@ -154,8 +133,7 @@
     <script>
       Modernizr.load({
         test: Modernizr.touch,
-        yep: 'js/video_replacement.js',
-        nope: 'js/whatWeDo.js'
+        nope: 'js/video_replacement.js',
         });
     </script>
 </body>
