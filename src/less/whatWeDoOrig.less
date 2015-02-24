@@ -16,11 +16,14 @@
   text-decoration: none !important;
   h3 {
     position: relative;
-    padding-top: 22%;
+    padding-top: 21%;
     margin: auto auto;
     font-weight: bold;
     z-index: 1;
-    font-size: 44px;
+    font-size: 30px;
     .link-transition(0.5s);
+    @media(max-width:@screen-sm){
+      padding-top: 22%;
+    }
   }
 }

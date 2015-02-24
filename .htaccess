@@ -1,0 +1,15 @@
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+<FilesMatch ".(ico|jpg|jpeg|png|gif|js|css|swf)$">
+Header set Expires "access plus 1 week"
+</FilesMatch> 
+AddType video/ogg .ogv
+AddType video/webm .webm
+AddType video/mp4 .mp4

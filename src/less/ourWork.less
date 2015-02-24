@@ -51,13 +51,40 @@
     bottom: 0;
 }
 
+.text-disappear {
+  position: absolute;  
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.videoThumbnail .text-disappear h3 {
+  font-size: 36px;
+  @media(min-width: @screen-lg){
+    font-size: 48px;
+  }
+}
+
+.videoThumbnail .text-disappear h3 {
+  @media (max-width: @screen-sm) {
+    font-size: 30px;
+  }
+}
+
+.hover-color h3{
+  font-size: 0;
+}
+
 @media (min-width: @screen-sm) {
   .hover-color {  
     padding: 4px 20px 4px 15px; 
-    font-size:0.8em;
     opacity: 0;
     .link-transition(300ms);
     z-index: 1;
+    h3 {
+      font-size: 20px;
+    }
   }
 
   .thumb-hover-primary {
