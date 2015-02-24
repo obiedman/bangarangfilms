@@ -13,7 +13,7 @@ var details = {
     "video_details" : {
       "title" : "Illusory",
       "artist" : "Billy Dodge ft. Eleanor Kaufman",
-      "blurb" : "The official music video for 'Illusory' by Billy Dodge. Shot on the RED Scarlet in Westport, MA.)"
+      "blurb" : "The official music video for 'Illusory' by Billy Dodge. Shot on the RED Scarlet in Westport, MA."
     }
   },
   "nikes" : {
