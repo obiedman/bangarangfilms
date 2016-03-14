@@ -1,7 +1,9 @@
-$(".videoThumbnail").hover(function(){
-  var that = $(this);
-  $("#"+that.data("video")).get(0).play();
-}, function(){
-  var that = $(this);
-  $("#"+that.data("video")).get(0).pause();
+$(".videoThumbnail").hover(function () {
+    "use strict";
+    var that = $(this);
+    $("#" + that.data("video")).get(0).play();
+}, function () {
+    "use strict";
+    var that = $(this);
+    $("#" + that.data("video")).get(0).pause();
 });

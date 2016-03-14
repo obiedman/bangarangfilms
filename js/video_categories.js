@@ -274,24 +274,27 @@ var details = {
             "blurb": ""
         }
     }
-}
+};
 
 var videoDetailsHeight;
 
 var returnArtist = function (video) {
-    if (video["video_details"]["artist"] == undefined) {
+    "use strict";
+    var artist = video.video_details.artist;
+    if (artist === undefined) {
         return '';
     } else {
-        return "<h3 class='text-secondary'>" + video["video_details"]["artist"] + "</h3>"
+        return "<h3 class='text-secondary'>" + artist + "</h3>";
     }
 };
 
 $(".video_link").click(function () {
+    "use strict";
     $(".active").removeClass("active");
     $(this).addClass("active");
-    var video = details[$(this).data("video")];
-    video_string = "<iframe class='embed-responsive-item padded' src=" + video["video"] + " allowfullscreen></iframe>"
-    details_string = "<div class='video_details' data-count='0'><h2 class='text-primary'>" + video["video_details"]["title"] + "</h2>" + returnArtist(video) + "<h3>" + video["video_details"]["blurb"] + "</h3></div>";
+    var video = details[$(this).data("video")],
+        video_string = "<iframe class='embed-responsive-item padded' src=" + video.video + " allowfullscreen></iframe>",
+        details_string = "<div class='video_details' data-count='0'><h2 class='text-primary'>" + video.video_details.title + "</h2>" + returnArtist(video) + "<h3>" + video.video_details.blurb + "</h3></div>";
     $("#video_window").html(video_string);
     $("#details_window").html(details_string);
 
@@ -299,9 +302,11 @@ $(".video_link").click(function () {
 
 $(document).ready(function () {
     // make heights equal
+    "use strict";
     $(".video_list").height($(".video_info_pane").height());
-})
+});
 
 $(window).resize(function () {
+    "use strict";
     $(".video_list").height($(".video_info_pane").height());
-})
+});

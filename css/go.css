@@ -1,0 +1,569 @@
+﻿body {
+    background-color: #000000;
+    font-size:small;
+    width:960px;
+    margin: auto;
+    display:none;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+.ui-tabs.ui-widget-content {
+    border: none !important;
+    
+}
+
+#header 
+{
+    text-align:center;
+    display:inline-table;
+    width: 100%;
+    font-size: 90px;
+    letter-spacing: 6px;
+    color: #ffffff;
+    margin-top:10px;
+    height:137px;
+    line-height:1.2em;
+}
+
+#logo
+{
+    background: #000000 url("../images/bf_logo_xs-s.png") no-repeat right center;
+    width: 200px;
+    height:137px;
+    display:table-cell;
+    margin-right: .5em;
+    margin-left: .5em;
+    margin-top:auto;
+    margin-bottom:auto;
+    zoom: 1;
+    *display: inline;
+}
+
+#logo-text 
+{
+    vertical-align:middle;
+    display:table-cell;
+    height:100%;
+    padding-right: .5em;
+    zoom: 1;
+    *display: inline;
+    
+}
+
+#logo-text .cufon
+{
+    padding-bottom: 2px;
+    border-bottom: 4px solid #ffffff;
+}
+
+.ui-tabs .ui-tabs-nav ul, .ui-widget-header {
+    border: 1px solid #000000;
+    display: block;
+    text-align:justify;
+	width: 954px;
+	*text-align: center;
+}
+
+.ui-tabs .ui-tabs-nav li {
+    font-size: 18px;
+    letter-spacing:.2em;
+    float:none;
+    display:inline-block;
+    background-color:#111111;
+    zoom: 1;
+    *display: inline;
+}
+
+li.MenuJustify  /*#page.ui-tabs > .ui-tabs-nav li:last-child */
+{
+    width: 100%;
+    height: 0px;
+}
+
+.ui-tabs .ui-tabs-nav li a 
+{
+    padding: .5em .4em;
+}
+
+#page  > .ui-tabs-panel
+{
+	margin-top: -2em;
+}
+
+.ui-tabs-panel 
+{
+    padding: 1em .2em 1em .2em !important;
+}
+
+.header
+{
+    font-size: 24px;
+    letter-spacing:4px;
+    margin-bottom:6px;
+    line-height:24px;
+    
+}
+
+.button-play
+{
+    background-image: url("../images/play_overlay.png");
+    position:relative;
+    left:50%;
+    bottom:50%;
+    margin-left:-30px;
+    margin-top: -30px;
+    width: 61px;
+    height: 62px;
+    display:block;
+    
+}
+
+.header-blue 
+{
+    color: #2693E0;
+}
+
+.header-green
+{
+    color: #46CE15;
+}
+
+.header-white
+{
+    color: #ffffff;
+}
+
+.section
+{
+    margin: 5px 0 20px 0;
+    overflow:hidden;
+    padding-bottom:20px;
+    border-bottom: 1px solid #222222;
+    border-collapse:collapse;
+    
+}
+
+.column 
+{
+    float:left;
+    display:inline-block;
+    zoom: 1;
+    *display: inline;
+}
+
+.columns-3
+{
+    width: 50%;
+    padding: 0 1% 0 1%;
+    float:left;
+}
+
+.columns-3:first-child
+{
+    width: 26%;
+	padding-left: 0;
+}
+
+#contact /*, .columns-3:last-child*/
+{
+    width:20%;
+    float:right;
+    text-align:right;
+	padding-right: 0;
+}
+
+#contact p.ContactName
+{
+    margin: 1em 0 .25em 0;
+
+}
+
+.columns-3:after
+{
+    clear:both;
+}
+
+#demoreel
+{
+    width: 480px;
+    height: 274px;
+    background-color: #333333;
+    display:inline-block;
+    zoom: 1;
+    *display: inline;
+    border: 1px solid #444;
+	overflow: hidden;
+}
+
+.content-slider .ui-tabs-nav
+{
+    position: absolute !important; 
+    left: 100px; 
+    bottom: 0;
+    padding-bottom:0px;
+}
+
+.content-slider .ui-tabs-nav li.ui-state-default
+{
+    padding: 0;
+    border: none;
+    background-color: #000000;
+    -moz-border-radius-topleft: 8px; 
+    -webkit-border-top-left-radius: 8px; 
+    -khtml-border-top-left-radius: 8px; 
+    border-top-left-radius: 8px;
+    -moz-border-radius-topright: 8px; 
+    -webkit-border-top-right-radius: 8px; 
+    -khtml-border-top-right-radius: 8px; 
+    border-top-right-radius: 8px;
+    -moz-border-radius-bottomleft: 8px; 
+    -webkit-border-bottom-left-radius: 8px; 
+    -khtml-border-bottom-left-radius: 8px; 
+    border-bottom-left-radius: 8px;
+    -moz-border-radius-bottomright: 8px; 
+    -webkit-border-bottom-right-radius: 8px; 
+    -khtml-border-bottom-right-radius: 8px; 
+    border-bottom-right-radius: 8px;
+    height:16px;
+    width:16px;
+
+}
+
+.content-slider .ui-tabs-nav li.ui-state-default a
+{
+    padding: 0;
+    width: 16px; 
+    height: 16px;
+    background-image: url(images/ui-icons_cccccc_256x240.png);
+    background-position: -112px -144px;
+    cursor:pointer;
+    
+}
+
+.content-slider .ui-tabs-nav li.ui-tabs-selected
+{
+    border: none;
+    margin-bottom: 1px;
+}
+
+
+.content-slider .ui-tabs-nav li.ui-tabs-selected a
+{
+    background-position: -96px -144px;
+    
+}
+
+.content-slider .ui-tabs-nav li.ui-state-hover a
+{
+    background-image: url(images/ui-icons_ffffff_256x240.png);
+}
+
+
+.project
+{
+    width:100%;
+    min-height: 230px;
+    height:230px;
+    padding-bottom: 0px;
+    padding-top:0px;
+}
+
+.project-content
+{
+    display:inline-block;
+    float:right;
+    width:550px;
+    zoom: 1;
+    *display: inline;
+}
+
+.project-content:after
+{
+    overflow:auto;
+}
+
+
+.project-video
+{
+    width: 350px;
+    height: 200px;
+    background-color: #333333;
+    display:inline-block;
+    float:left;
+    margin-right: 15px;
+    zoom: 1;
+    *display: inline;
+} 
+
+#recentprojects
+{
+    overflow:hidden;
+}
+
+#commercials, #projects
+{
+    height:230px;
+    
+}
+
+#vow
+{
+    float:right;
+    width:35%;
+    text-align:center;
+}
+
+.vow-video
+{
+    width: 200px;
+    height: 110px;
+    background-color: #333333;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+
+}
+
+#vow .header
+{
+    text-align:center;
+}
+
+#vow:after
+{
+    overflow: auto;
+}
+
+#home-bottom
+{
+ 
+}
+
+
+.page-description
+{
+    float:left;
+    margin-bottom:5px;
+    color: #dddddd;
+}
+
+.feature
+{
+    padding-top:10px;
+    width:100%;
+}
+
+.featured-reel
+{
+    border: 2px solid #444444;   
+    width: 640px;
+    height:360px;
+    float:left;
+}
+
+.featured-content
+{
+    float:right;
+    width:280px;
+    text-align: center;
+
+}
+
+
+.featured-header
+{
+    width:100%;
+}
+
+.featured-desc, #Weddings-Packages
+{
+    color: #dddddd;
+}
+
+.gallery
+{
+    display:table-cell;
+    text-align:justify;
+}
+
+.gallery-thumb
+{
+    display:inline-block;
+    width:280px;
+    height:169px;
+    margin: 10px;
+    border: 2px solid #444444;
+        zoom: 1;
+    *display: inline;
+}
+
+.video-box, .thumb-box
+{
+    background-color: #000000;
+    height:100%;
+    width: 100%
+}
+
+.thumb-box
+{
+    opacity: .35; 
+    filter:Alpha(Opacity=35);
+}
+
+#Weddings-Packages > p
+{
+	line-height:1.2em;
+	margin: .25em 0 2em 0;
+}
+
+#Weddings-Packages >ul > li
+{
+	margin: .5em 0 1em 0;
+	line-height:1.2em;
+}
+
+#Weddings-Packages ul ul
+{
+	margin: .5em 0 0 3em;
+}
+
+#Weddings-Packages li li
+{
+	list-style-type: circle;
+	margin: .25em 0 .25em 0;
+}
+
+#Weddings-Packages > ul+p
+{
+	margin: 3em 0 .5em 0;
+}
+
+#Weddings-Packages > ul+p a, #Weddings-Packages > ul+p a:visited
+{
+	color: #dddddd;
+	text-decoration: underline;
+}
+
+.footer
+{
+	text-align: justify;
+	border-top: 1px solid #222222;
+	padding-top: 1em;
+}
+
+.footer li
+{
+	display: inline-block;
+}
+.footer a, .footer a:visited
+{
+	color: #dddddd;
+	text-decoration: none;
+}
+
+.footer a:hover, #Weddings-Packages > ul+p a:hover
+{
+	color: #2693E0;
+	text-decoration: underline;
+}
+
+#vow, #social
+{
+	padding-top: 0;
+	width: 100%;
+}
+
+#vow .featured-reel
+{
+	float:right;
+}
+
+#vow .featured-content
+{
+	float: left;
+}
+#vow .header:not(.featured-header)
+{
+	text-align:right;
+	display: block;
+	width:100%
+}
+
+#vow .featured-header
+{
+	
+}
+
+#social-media
+{
+	float:right;
+	width:35%;
+}
+
+#social-blog
+{
+    width: 60%;
+	float:left;
+}
+
+.blog-recentposts
+{
+}
+
+.blog-recentposts li
+{
+	overflow: hidden;
+	margin: .5em 0 .5em 0;
+	padding: .5em .5em .5em 0;
+	
+	
+}
+
+.blog-recentposts .date
+{
+	width: 3em;
+	height: 4em;
+	display: inline-block;
+	font-size:120%;
+	padding: .25em 0 .25em 0;
+	text-align: center;
+	background-color: #444444;
+	-webkit-border-radius: .75em; 
+    -moz-border-radius: .75em; 
+    border-radius: .75em;
+	line-height: 100%;
+	vertical-align: top;
+	margin-top: 1em;
+}
+
+.blog-recentposts .readmore
+{
+	width: 9em;
+	height: 1em;
+	display: inline-block;
+	font-size:120%;
+	padding: .25em 0 .25em 0;
+	text-align: center;
+	background-color: #444444;
+	-webkit-border-radius: .75em; 
+    -moz-border-radius: .75em; 
+    border-radius: .75em;
+	line-height: 0;
+	position:relative;
+	left:70%;
+}
+
+.blog-recentposts .content
+{
+	display: inline-block;
+	margin: .5em 0 -1em -1.75em;
+	padding: 0 .5em 1.5em 2.25em;
+	border: 1px solid #444;
+	width: 88%;
+	min-height:6em;
+	}
+
+.blog-recentposts .header
+{
+	margin-bottom: .25em;
+}
