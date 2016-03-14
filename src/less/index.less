@@ -142,13 +142,24 @@ h2.customfont {
 }
 
 .green-stripe{
-  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, @brand-primary 16%, @brand-primary 84%, rgba(0, 0, 0, 0) 100%);
-  background: linear-gradient(left, rgba(0, 0, 0, 0) 0%, @brand-primary 16%, @brand-primary 84%, rgba(0, 0, 0, 0) 100%);
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, @brand-primary 16%, @brand-primary 84%, rgba(0, 0, 0, 0) 100%);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, @brand-primary 16%, @brand-primary 84%, rgba(0, 0, 0, 0) 100%);
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, @brand-primary 16%, @brand-primary 84%, rgba(0, 0, 0, 0) 100%); 
+  background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, @brand-primary 16%, @brand-primary 84%, rgba(0, 0, 0, 0) 100%); 
+  background-repeat: no-repeat;
+  filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=1)",argb(transparent),argb(@brand-secondary))); 
+
 }
 
 .blue-stripe {
-  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, @brand-secondary 16%, @brand-secondary 84%, rgba(0, 0, 0, 0) 100%);
-  background: linear-gradient(left, rgba(0, 0, 0, 0) 0%, @brand-primary 16%, @brand-primary 84%, rgba(0, 0, 0, 0) 100%);
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, @brand-secondary 16%, @brand-secondary 84%, rgba(0, 0, 0, 0) 100%);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, @brand-secondary 16%, @brand-secondary 84%, rgba(0, 0, 0, 0) 100%);
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, @brand-secondary 16%, @brand-secondary 84%, rgba(0, 0, 0, 0) 100%); 
+  background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, @brand-secondary 16%, @brand-secondary 84%, rgba(0, 0, 0, 0) 100%); 
+  background-repeat: no-repeat;
+  filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=1)",argb(transparent),argb(@brand-secondary))); // IE9 and down, gets no color-stop at all for proper fallback
+    // background: linear-gradient(left, rgba(0, 0, 0, 0) 0%, @brand-primary 16%, @brand-primary 84%, rgba(0, 0, 0, 0) 100%);
+  // #gradient.horizontal-four-colors(transparent, @brand-secondary, 16%, @brand-secondary, 84%, transparent);
 }
 
 .category_link {
