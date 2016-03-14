@@ -4,13 +4,12 @@
   word-spacing: 1px;
   letter-spacing: 1px;
   font-size: 18px;
-  margin-bottom:  10px;
+  margin-bottom: 10px;
   @media (min-width: @screen-sm) {
-	 top: 15px;
-   font-size: 15px;
+    top: 15px;
+    font-size: 15px;
   }
-
-  @media (min-width: @screen-md){
+  @media (min-width: @screen-md) {
     font-size: 18px;
   }
 }
@@ -27,67 +26,23 @@
   background-color: transparent;
 }
 
-.nav a {
-  .link-background-transition(1s);
-  text-decoration: none;
-}
-
 .nav li {
   padding: 9px;
   display: inline;
   text-align: center;
   position: relative;
-  @media (min-width: @screen-sm){
+  @media (min-width: @screen-sm) {
     padding: 4px;
   }
 }
 
-.nav ul:last-child {
-  padding-top: 24px;
+.nav li.social a {
+  display: inline-block;
+  color: @brand-secondary;
 }
 
-.navbar-brand img {
-  position: relative;
-  width: 200px;
-  margin-bottom: 0;
-  @media (min-width: @screen-sm) {
-	width: 300px;
-  }
-}
-
-.social {
-  a {
-    display: inline-block !important;
-    color: @brand-secondary !important;
-  }
-  a:hover {
-    color: @brand-primary !important;
-  }
-}
-
-#fb_logo {
-	width: @social-icon-size;
-	height: @social-icon-size;
-	background-color: @social-bg;
-	.link-transition(1s);
-	.link-hover;
-}
-
-#tw_logo {
-	width: @social-icon-size;
-	height: @social-icon-size;
-	background-color: @social-bg;
-	.link-transition(1s);
-	.link-hover;
-}
-
-
-#yt_logo {
-	width: @social-icon-size;
-	height: @social-icon-size;
-	background-color: @social-bg;
-	.link-transition(1s);
-	.link-hover;
+.nav li.social a:hover {
+  color: @brand-primary;
 }
 
 .text-logo {
@@ -95,13 +50,12 @@
   top: 15px;
   font-family: bangarant_font;
   font-size: 25px;
-
-  @media (min-width: @screen-sm){
+  @media (min-width: @screen-sm) {
     font-size: 45px;
   }
 }
 
-.text-logo:before{
+.text-logo:before {
   content: "\e600\e601\e604\e602\e601\e603\e601\e604\e602 \e606\e607\e605\e609\e608";
 }
 
@@ -116,11 +70,10 @@
 .fa-utuuuubeeee:before {
   content: "\f16a";
 }
-
 .fa-tweeter:before {
   content: "\f099";
 }
 
-.fa-spacebook:before{
+.fa-spacebook:before {
   content: "\f09a";
 }

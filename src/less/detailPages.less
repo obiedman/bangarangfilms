@@ -1,12 +1,15 @@
 .title {
-  @media (min-width: @screen-sm){
-    margin-top: 55px;
-  }
-}
-
-.title h1 {
   font-weight: bold;
-  margin-bottom: 40px;
+  @media (min-width: @screen-sm) {
+    height: 200px;
+    line-height: 200px;
+    margin-top: 55px;
+    background: url('../../images/background_text.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  text-align: center;
+  margin: 10px;
 }
 
 .text-primary {
@@ -19,16 +22,18 @@
 
 .video-embed {
   .make-xs-column(12);
-  .make-sm-column(7, 0);
+  .make-sm-column(7,
+  0);
 }
 
 .video-info {
-  .make-sm-column(5, 0);
+  .make-sm-column(5,
+  0);
   text-align: justify;
   background: #c6dcef;
   margin-bottom: -99999px;
   padding-bottom: 99999px;
-  @media (min-width: @screen-sm){
+  @media (min-width: @screen-sm) {
     max-width: 400px;
   }
 }
@@ -77,16 +82,15 @@
   overflow: hidden;
 }
 
-.row-equal:nth-child(even) .video-info{
+.row-equal:nth-child(even) .video-info {
   background: #c1efc1;
 }
 
 .video_list {
   .make-xs-column(12);
-  .make-sm-column(2, 0);
+  .make-sm-column(2,
+  0);
   .make-sm-column-pull(8);
-  // margin-bottom: -99999px;
-  // padding-bottom: 99999px;
   background: black;
   overflow-y: auto;
   direction: rtl;
@@ -97,7 +101,6 @@
   list-style: none;
   font-size: 18px;
   padding: 0;
-  
 }
 
 .video_list li {
@@ -132,11 +135,10 @@
   background: @brand-secondary;
 }
 
-@media (min-width: @screen-sm){
+@media (min-width: @screen-sm) {
   li:hover:after {
     width: 100%;
   }
-
   li:hover {
     a {
       color: #e5e5e5;
@@ -149,7 +151,7 @@
   }
 }
 
-.video_list li:last-child{
+.video_list li:last-child {
   border-bottom: none;
 }
 
@@ -172,7 +174,7 @@ li.active a {
   color: #e5e5e5;
 }
 
-li.active:after{
+li.active:after {
   width: 100%;
 }
 
@@ -182,7 +184,8 @@ li.active span i {
 
 .video_info_pane {
   .make-xs-column(12);
-  .make-sm-column(8, 0);
+  .make-sm-column(8,
+  0);
   .make-sm-column-push(2);
 }
 
@@ -197,14 +200,10 @@ li.active span i {
 
 #details_window {
   margin: 10px 0;
-  @media(max-width: @screen-sm){
+  @media(max-width: @screen-sm) {
     display: none;
   }
 }
-
-// .video_details h3, .video_details h2 {
-//   margin: 0;
-// }
 
 .video_details h3 {
   font-size: 18px;

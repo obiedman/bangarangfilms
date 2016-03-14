@@ -1,11 +1,10 @@
 var clicked = false;
 var finished = false;
 
-$(document).ready(function () {
-    "use strict";
-    $(".demo-reel").css("height", "500px");
-});
-
+//$(document).ready(function () {
+//    "use strict";
+//    $(".demo-reel").css("height", "500px");
+//});
 function spreadOut() {
     "use strict";
     var t1 = new TimelineLite();

@@ -1,42 +1,57 @@
 html {
-    min-height: 100%;
+  min-height: 100%;
 }
 
 nav {
-    margin-top: 20px;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    background-color: transparent;
-    ;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  background-color: transparent;
+  ;
 }
 
 body {
-    font-family: BenchNine, sans-serif;
-    #gradient.radial(black, #131414);
-    position: relative;
-    min-height: 100%;
+  font-family: BenchNine, sans-serif;
+  #gradient.radial(black, #131414);
+  position: relative;
+  min-height: 100%;
 }
 
 .footer {
-    margin: 100px;
+  margin: 100px;
 }
 
 @media (min-width: @screen-sm) {
-    h1 {
-        font-size: @h1-lg;
-    }
-    h2 {
-        font-size: @h2-lg;
-    }
-    h3 {
-        font-size: @h3-lg;
-    }
+  h1 {
+    font-size: @h1-lg;
+  }
+  h2 {
+    font-size: @h2-lg;
+  }
+  h3 {
+    font-size: @h3-lg;
+  }
 }
 
 .font-change {
-    font-family: 'Arial';
+  font-family: 'Arial';
 }
 
 .embed-responsive {
-    position: relative;
+  position: relative;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+  .link-transition(1s);
+}
+
+a:hover {
+  text-decoration: none;
 }
