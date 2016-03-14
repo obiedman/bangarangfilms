@@ -2,188 +2,191 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Wedding Information Form - Bangarang Films</title>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wedding Information Form - Bangarang Films</title>
+  <!--[if IE]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
 
-    <link href="https://fonts.googleapis.com/css?family=BenchNine:400,700" rel="stylesheet" type="text/css" />
-    <style>
-        html {
-            font-family: BenchNine, sans-serif;
-            margin: 40px;
-        }
-        
-        .wedding-body {
-            /*margin: 45px;*/
-            background-color: #f9f9f9;
-            width: 500px;
-            margin: 0 auto;
-        }
-        
-        .wedding-form label {
-            /*display: block;*/
-            margin-top: 15px;
-        }
-        
-        .form_container {
-            width: 500px;
-            clear: both;
-            margin: 20px;
-        }
-        
-        .form_container input {
-            width: 100%;
-            clear: both;
-        }
-        
-        .form_container label {
-            margin-top: 25px;
-        }
-        
-        h3,
-        input,
-        textarea,
-        label {
-            font-family: BenchNine, sans-serif;
-            display: block;
-        }
-        
-        .logo {
-            float: right;
-        }
-        
-        .active_error {
-            border: 1px solid red;
-        }
-        
-        .input_group {
-            width: 200px;
-            float: left;
-        }
-        
-        .image_header {
-            width: 100%;
-        }
-        
-        .clearfix:after {
-            visibility: hidden;
-            display: block;
-            font-size: 0;
-            content: " ";
-            clear: both;
-            height: 0;
-        }
-        
-        .clearfix {
-            display: inline-block;
-        }
-        
-        * html .clearfix {
-            height: 1%;
-        }
-        
-        .clearfix {
-            display: block;
-        }
-    </style>
+  <link href="https://fonts.googleapis.com/css?family=BenchNine:400,700" rel="stylesheet" type="text/css" />
+  <style>
+    html {
+      font-family: BenchNine, sans-serif;
+      margin: 40px;
+    }
+    
+    .wedding-body {
+      /*margin: 45px;*/
+      background-color: #f9f9f9;
+      width: 500px;
+      margin: 0 auto;
+    }
+    
+    .wedding-form label {
+      /*display: block;*/
+      margin-top: 15px;
+    }
+    
+    .form_container {
+      width: 500px;
+      clear: both;
+      margin: 20px;
+    }
+    
+    .form_container input {
+      width: 100%;
+      clear: both;
+    }
+    
+    .form_container label {
+      margin-top: 25px;
+    }
+    
+    h3,
+    input,
+    textarea,
+    label {
+      font-family: BenchNine, sans-serif;
+      display: block;
+    }
+    
+    .logo {
+      float: right;
+    }
+    
+    .active_error {
+      border: 1px solid red;
+    }
+    
+    .input_group {
+      width: 200px;
+      float: left;
+    }
+    
+    .image_header {
+      width: 100%;
+    }
+    
+    .clearfix:after {
+      visibility: hidden;
+      display: block;
+      font-size: 0;
+      content: " ";
+      clear: both;
+      height: 0;
+    }
+    
+    .clearfix {
+      display: inline-block;
+    }
+    
+    * html .clearfix {
+      height: 1%;
+    }
+    
+    .clearfix {
+      display: block;
+    }
+  </style>
 </head>
 
 <body class="wedding-body">
-    <div class="image_header clearfix"><img class="logo" src="images/bg_logo_100.png" /></div>
-    <p>*: Required</p>
-    <div class="form_ container">
-        <div id="error_field"></div>
-        <form action="contact.php" method="post" class="wedding-form" name="wedding_form">
-            <input type="hidden" name="redirect" value="thankyou" />
-            <div class="input_group">
-                <label for="groom_name">Groom Name: *
-                    <input type="text" name="GroomName" id="GroomName" />
-                </label>
-                <p class="error" id="GroomNameError"></p>
-                <label for="phone">Phone: </label>
-                <input type="tel" name="Phone" />
-                <label for="date">Wedding Date: *</label>
-                <input type="date" name="Date" id="Date" />
-                <p class="error" id="DateError"></p>
-                <h3>Ceremony</h3>
+  <div class="image_header clearfix"><img class="logo" src="images/bg_logo_100.png" /></div>
+  <p>*: Required</p>
+  <div class="form_ container">
+    <div id="error_field"></div>
+    <form action="contact.php" method="post" class="wedding-form" name="wedding_form">
+      <input type="hidden" name="redirect" value="thankyou" />
+      <div class="input_group">
+        <label for="groom_name">Groom Name: *
+          <input type="text" name="GroomName" id="GroomName" />
+        </label>
+        <p class="error" id="GroomNameError"></p>
+        <label for="phone">Phone: </label>
+        <input type="tel" name="Phone" />
+        <label for="date">Wedding Date: *</label>
+        <input type="date" name="Date" id="Date" />
+        <p class="error" id="DateError"></p>
+        <h3>Ceremony</h3>
 
-                <label for="ceremony_location">Location: </label>
-                <input type="text" name="CeremonyLocation" />
+        <label for="ceremony_location">Location: </label>
+        <input type="text" name="CeremonyLocation" />
 
-                <label for="ceremony_time">Time: </label>
-                <input type="time" name="CeremonyTime" />
-                <label for="notes">Questions/Notes </label>
-                <textarea name="Notes" rows="4" cols="50"></textarea>
-                <input type="submit" name="submit" value="SUBMIT" />
-            </div>
-            <div class="input_group">
-                <label for="bride_name">Bride Name: *
-                    <input type="text" name="BrideName" id="BrideName" />
-                </label>
-                <p class="error" id="BrideNameError"></p>
+        <label for="ceremony_time">Time: </label>
+        <input type="time" name="CeremonyTime" />
+        <label for="notes">Questions/Notes </label>
+        <textarea name="Notes" rows="4" cols="50"></textarea>
+        <input type="submit" name="submit" value="SUBMIT" />
+      </div>
+      <div class="input_group">
+        <label for="bride_name">Bride Name: *
+          <input type="text" name="BrideName" id="BrideName" />
+        </label>
+        <p class="error" id="BrideNameError"></p>
 
-                <label for="email">Email: *</label>
-                <input type="email" name="Email" id="Email" />
-                <p class="error" id="EmailError" style="margin-bottom:75px"></p>
+        <label for="email">Email: *</label>
+        <input type="email" name="Email" id="Email" />
+        <p class="error" id="EmailError" style="margin-bottom:75px"></p>
 
-                <h3>Reception</h3>
-                <label for="reception_location">Location: </label>
-                <input type="text" name="ReceptionLocation" />
-                <label for="reception_time">Time: </label>
-                <input type="time" name="ReceptionTime" />
-            </div>
+        <h3>Reception</h3>
+        <label for="reception_location">Location: </label>
+        <input type="text" name="ReceptionLocation" />
+        <label for="reception_time">Time: </label>
+        <input type="time" name="ReceptionTime" />
+      </div>
 
-            <input type="hidden" name="form_order" value="alpha" />
-            <input type="hidden" name="form_delivery" value="hourly_digest" />
-            <input type="hidden" name="form_format" value="html" />
-        </form>
-    </div>
-    <script type="text/javascript" src="js/validate.js"></script>
-    <script>
-        var validator = new FormValidator('wedding_form', [{
-            name: 'Email',
-            rules: 'required|valid_email'
+      <input type="hidden" name="form_order" value="alpha" />
+      <input type="hidden" name="form_delivery" value="hourly_digest" />
+      <input type="hidden" name="form_format" value="html" />
+    </form>
+  </div>
+  <script type="text/javascript" src="js/validate.js"></script>
+  <script>
+    var validator = new FormValidator('wedding_form', [{
+      name: 'Email',
+      rules: 'required|valid_email'
       }, {
-            name: 'GroomName',
-            display: 'Groom Name',
-            rules: 'required'
+      name: 'GroomName',
+      display: 'Groom Name',
+      rules: 'required'
       }, {
-            name: 'BrideName',
-            display: 'Bride Name',
-            rules: 'required'
+      name: 'BrideName',
+      display: 'Bride Name',
+      rules: 'required'
       }, {
-            name: 'Date',
-            display: 'Wedding Date',
-            rules: 'required'
+      name: 'Date',
+      display: 'Wedding Date',
+      rules: 'required'
       }], function (errors, event) {
-            if (errors.length > 0) {
-                groomError = document.getElementById('GroomNameError');
-                brideError = document.getElementById('BrideNameError');
-                emailError = document.getElementById('EmailError');
-                dateError = document.getElementById('DateError');
-                groomInput = document.getElementById('GroomName');
-                brideInput = document.getElementById('BrideName');
-                emailInput = document.getElementById('Email');
-                dateInput = document.getElementById('Date');
+      if (errors.length > 0) {
+        groomError = document.getElementById('GroomNameError');
+        brideError = document.getElementById('BrideNameError');
+        emailError = document.getElementById('EmailError');
+        dateError = document.getElementById('DateError');
+        groomInput = document.getElementById('GroomName');
+        brideInput = document.getElementById('BrideName');
+        emailInput = document.getElementById('Email');
+        dateInput = document.getElementById('Date');
 
-                var inputArray = [groomInput, brideInput, emailInput, dateInput];
-                var errorFields = [groomError, brideError, emailError, dateError];
+        var inputArray = [groomInput, brideInput, emailInput, dateInput];
+        var errorFields = [groomError, brideError, emailError, dateError];
 
-                for (var i = 0; i < inputArray.length; i++) {
-                    inputArray[i].className = '';
-                };
-                for (var i = 0; i < errorFields.length; i++) {
-                    errorFields[i].innerHTML = '';
-                };
-                for (var i = 0, errorLength = errors.length; i < errorLength; i++) {
-                    document.getElementById(errors[i].name).className = 'active_error';
-                    document.getElementById(errors[i].name + 'Error').innerHTML = errors[i].message;
-                };
-            }
-        });
-    </script>
+        for (var i = 0; i < inputArray.length; i++) {
+          inputArray[i].className = '';
+        };
+        for (var i = 0; i < errorFields.length; i++) {
+          errorFields[i].innerHTML = '';
+        };
+        for (var i = 0, errorLength = errors.length; i < errorLength; i++) {
+          document.getElementById(errors[i].name).className = 'active_error';
+          document.getElementById(errors[i].name + 'Error').innerHTML = errors[i].message;
+        };
+      }
+    });
+  </script>
 </body>
 
 </html>
