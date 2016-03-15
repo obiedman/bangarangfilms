@@ -1,0 +1,718 @@
+Searching 11447 files for "our_work"
+
+/home/patrick/projects/bangarang/commercials.html:
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38            <li><a href="what_we_do">WHAT WE DO</a></li>
+   39:           <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+   41            <li class="social">
+
+/home/patrick/projects/bangarang/corporate.html:
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38            <li><a href="what_we_do">WHAT WE DO</a></li>
+   39:           <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+   41            <li class="social">
+
+/home/patrick/projects/bangarang/index.html:
+   38            <li><a href="who_we_are">WHO WE ARE</a></li>
+   39            <li><a href="what_we_do">WHAT WE DO</a></li>
+   40:           <li><a href="our_work">OUR WORK</a></li>
+   41            <li><a href="contact">CONTACT</a></li>
+   42            <li class="social">
+
+/home/patrick/projects/bangarang/music.html:
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38            <li><a href="what_we_do">WHAT WE DO</a></li>
+   39:           <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+   41            <li class="social">
+
+/home/patrick/projects/bangarang/sports.html:
+   36            <li><a href="who_we_are">WHO WE ARE</a></li>
+   37            <li><a href="what_we_do">WHAT WE DO</a></li>
+   38:           <li><a href="our_work">OUR WORK</a></li>
+   39            <li><a href="contact">CONTACT</a></li>
+   40            <li class="social">
+
+/home/patrick/projects/bangarang/test_sports.html:
+   34                      <li><a href="who_we_are.html">WHO WE ARE</a></li>
+   35                      <li><a href="what_we_do.html">WHAT WE DO</a></li>
+   36:                     <li><a href="our_work.html">OUR WORK</a></li>
+   37                      <li><a href="contact.html">CONTACT</a></li>
+   38                      <li class="social">
+
+/home/patrick/projects/bangarang/viral.html:
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38            <li><a href="what_we_do">WHAT WE DO</a></li>
+   39:           <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+   41            <li class="social">
+
+/home/patrick/projects/bangarang/weddings.html:
+   37            <li><a href="who_we_are" class="link-dark">WHO WE ARE</a></li>
+   38            <li><a href="what_we_do" class="link-dark">WHAT WE DO</a></li>
+   39:           <li><a href="our_work" class="link-dark">OUR WORK</a></li>
+   40            <li><a href="contact" class="link-dark">CONTACT</a></li>
+   41            <li class="social">
+
+/home/patrick/projects/bangarang/weddings_test.html:
+   34              <li><a href="who_we_are.html" class="link-dark">WHO WE ARE</a></li>
+   35              <li><a href="what_we_do.html" class="link-dark">WHAT WE DO</a></li>
+   36:             <li><a href="our_work.html" class="link-dark">OUR WORK</a></li>
+   37              <li><a href="contact.html" class="link-dark">CONTACT</a></li>
+   38              <li class="social">
+
+/home/patrick/projects/bangarang/what_we_do.html:
+   36            <li><a href="who_we_are">WHO WE ARE</a></li>
+   37            <li><a href="what_we_do">WHAT WE DO</a></li>
+   38:           <li><a href="our_work">OUR WORK</a></li>
+   39            <li><a href="contact">CONTACT</a></li>
+   40            <li class="social">
+
+/home/patrick/projects/bangarang/who_we_are.html:
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38            <li><a href="what_we_do">WHAT WE DO</a></li>
+   39:           <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+   41            <li class="social">
+
+/home/patrick/projects/bangarang/dist/commercials.html:
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38            <li><a href="what_we_do">WHAT WE DO</a></li>
+   39:           <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+   41            <li class="social">
+
+/home/patrick/projects/bangarang/dist/corporate.html:
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38            <li><a href="what_we_do">WHAT WE DO</a></li>
+   39:           <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+   41            <li class="social">
+
+/home/patrick/projects/bangarang/dist/index.html:
+   38            <li><a href="who_we_are">WHO WE ARE</a></li>
+   39            <li><a href="what_we_do">WHAT WE DO</a></li>
+   40:           <li><a href="our_work">OUR WORK</a></li>
+   41            <li><a href="contact">CONTACT</a></li>
+   42            <li class="social">
+
+/home/patrick/projects/bangarang/dist/music.html:
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38            <li><a href="what_we_do">WHAT WE DO</a></li>
+   39:           <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+   41            <li class="social">
+
+/home/patrick/projects/bangarang/dist/our_work.html:
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38            <li><a href="what_we_do">WHAT WE DO</a></li>
+   39:           <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+   41            <li class="social">
+
+/home/patrick/projects/bangarang/dist/sports.html:
+   36            <li><a href="who_we_are">WHO WE ARE</a></li>
+   37            <li><a href="what_we_do">WHAT WE DO</a></li>
+   38:           <li><a href="our_work">OUR WORK</a></li>
+   39            <li><a href="contact">CONTACT</a></li>
+   40            <li class="social">
+
+/home/patrick/projects/bangarang/dist/test_sports.html:
+   34                      <li><a href="who_we_are.html">WHO WE ARE</a></li>
+   35                      <li><a href="what_we_do.html">WHAT WE DO</a></li>
+   36:                     <li><a href="our_work.html">OUR WORK</a></li>
+   37                      <li><a href="contact.html">CONTACT</a></li>
+   38                      <li class="social">
+
+/home/patrick/projects/bangarang/dist/viral.html:
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38            <li><a href="what_we_do">WHAT WE DO</a></li>
+   39:           <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+   41            <li class="social">
+
+/home/patrick/projects/bangarang/dist/weddings.html:
+   37            <li><a href="who_we_are" class="link-dark">WHO WE ARE</a></li>
+   38            <li><a href="what_we_do" class="link-dark">WHAT WE DO</a></li>
+   39:           <li><a href="our_work" class="link-dark">OUR WORK</a></li>
+   40            <li><a href="contact" class="link-dark">CONTACT</a></li>
+   41            <li class="social">
+
+/home/patrick/projects/bangarang/dist/weddings_test.html:
+   34              <li><a href="who_we_are.html" class="link-dark">WHO WE ARE</a></li>
+   35              <li><a href="what_we_do.html" class="link-dark">WHAT WE DO</a></li>
+   36:             <li><a href="our_work.html" class="link-dark">OUR WORK</a></li>
+   37              <li><a href="contact.html" class="link-dark">CONTACT</a></li>
+   38              <li class="social">
+
+/home/patrick/projects/bangarang/dist/what_we_do.html:
+   36            <li><a href="who_we_are">WHO WE ARE</a></li>
+   37            <li><a href="what_we_do">WHAT WE DO</a></li>
+   38:           <li><a href="our_work">OUR WORK</a></li>
+   39            <li><a href="contact">CONTACT</a></li>
+   40            <li class="social">
+
+/home/patrick/projects/bangarang/dist/who_we_are.html:
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38            <li><a href="what_we_do">WHAT WE DO</a></li>
+   39:           <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+   41            <li class="social">
+
+23 matches across 23 files
+
+
+Searching 11447 files for "our_work"
+
+/home/patrick/projects/bangarang/commercials.html:
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38            <li><a href="what_we_do">WHAT WE DO</a></li>
+   39:           <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+   41            <li class="social">
+
+/home/patrick/projects/bangarang/corporate.html:
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38            <li><a href="what_we_do">WHAT WE DO</a></li>
+   39:           <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+   41            <li class="social">
+
+/home/patrick/projects/bangarang/index.html:
+   38            <li><a href="who_we_are">WHO WE ARE</a></li>
+   39            <li><a href="what_we_do">WHAT WE DO</a></li>
+   40:           <li><a href="our_work">OUR WORK</a></li>
+   41            <li><a href="contact">CONTACT</a></li>
+   42            <li class="social">
+
+/home/patrick/projects/bangarang/music.html:
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38            <li><a href="what_we_do">WHAT WE DO</a></li>
+   39:           <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+   41            <li class="social">
+
+/home/patrick/projects/bangarang/sports.html:
+   36            <li><a href="who_we_are">WHO WE ARE</a></li>
+   37            <li><a href="what_we_do">WHAT WE DO</a></li>
+   38:           <li><a href="our_work">OUR WORK</a></li>
+   39            <li><a href="contact">CONTACT</a></li>
+   40            <li class="social">
+
+/home/patrick/projects/bangarang/test_sports.html:
+   34                      <li><a href="who_we_are.html">WHO WE ARE</a></li>
+   35                      <li><a href="what_we_do.html">WHAT WE DO</a></li>
+   36:                     <li><a href="our_work.html">OUR WORK</a></li>
+   37                      <li><a href="contact.html">CONTACT</a></li>
+   38                      <li class="social">
+
+/home/patrick/projects/bangarang/viral.html:
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38            <li><a href="what_we_do">WHAT WE DO</a></li>
+   39:           <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+   41            <li class="social">
+
+/home/patrick/projects/bangarang/weddings.html:
+   37            <li><a href="who_we_are" class="link-dark">WHO WE ARE</a></li>
+   38            <li><a href="what_we_do" class="link-dark">WHAT WE DO</a></li>
+   39:           <li><a href="our_work" class="link-dark">OUR WORK</a></li>
+   40            <li><a href="contact" class="link-dark">CONTACT</a></li>
+   41            <li class="social">
+
+/home/patrick/projects/bangarang/weddings_test.html:
+   34              <li><a href="who_we_are.html" class="link-dark">WHO WE ARE</a></li>
+   35              <li><a href="what_we_do.html" class="link-dark">WHAT WE DO</a></li>
+   36:             <li><a href="our_work.html" class="link-dark">OUR WORK</a></li>
+   37              <li><a href="contact.html" class="link-dark">CONTACT</a></li>
+   38              <li class="social">
+
+/home/patrick/projects/bangarang/what_we_do.html:
+   36            <li><a href="who_we_are">WHO WE ARE</a></li>
+   37            <li><a href="what_we_do">WHAT WE DO</a></li>
+   38:           <li><a href="our_work">OUR WORK</a></li>
+   39            <li><a href="contact">CONTACT</a></li>
+   40            <li class="social">
+
+/home/patrick/projects/bangarang/who_we_are.html:
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38            <li><a href="what_we_do">WHAT WE DO</a></li>
+   39:           <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+   41            <li class="social">
+
+/home/patrick/projects/bangarang/dist/commercials.html:
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38            <li><a href="what_we_do">WHAT WE DO</a></li>
+   39:           <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+   41            <li class="social">
+
+/home/patrick/projects/bangarang/dist/corporate.html:
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38            <li><a href="what_we_do">WHAT WE DO</a></li>
+   39:           <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+   41            <li class="social">
+
+/home/patrick/projects/bangarang/dist/index.html:
+   38            <li><a href="who_we_are">WHO WE ARE</a></li>
+   39            <li><a href="what_we_do">WHAT WE DO</a></li>
+   40:           <li><a href="our_work">OUR WORK</a></li>
+   41            <li><a href="contact">CONTACT</a></li>
+   42            <li class="social">
+
+/home/patrick/projects/bangarang/dist/music.html:
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38            <li><a href="what_we_do">WHAT WE DO</a></li>
+   39:           <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+   41            <li class="social">
+
+/home/patrick/projects/bangarang/dist/our_work.html:
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38            <li><a href="what_we_do">WHAT WE DO</a></li>
+   39:           <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+   41            <li class="social">
+
+/home/patrick/projects/bangarang/dist/sports.html:
+   36            <li><a href="who_we_are">WHO WE ARE</a></li>
+   37            <li><a href="what_we_do">WHAT WE DO</a></li>
+   38:           <li><a href="our_work">OUR WORK</a></li>
+   39            <li><a href="contact">CONTACT</a></li>
+   40            <li class="social">
+
+/home/patrick/projects/bangarang/dist/test_sports.html:
+   34                      <li><a href="who_we_are.html">WHO WE ARE</a></li>
+   35                      <li><a href="what_we_do.html">WHAT WE DO</a></li>
+   36:                     <li><a href="our_work.html">OUR WORK</a></li>
+   37                      <li><a href="contact.html">CONTACT</a></li>
+   38                      <li class="social">
+
+/home/patrick/projects/bangarang/dist/viral.html:
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38            <li><a href="what_we_do">WHAT WE DO</a></li>
+   39:           <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+   41            <li class="social">
+
+/home/patrick/projects/bangarang/dist/weddings.html:
+   37            <li><a href="who_we_are" class="link-dark">WHO WE ARE</a></li>
+   38            <li><a href="what_we_do" class="link-dark">WHAT WE DO</a></li>
+   39:           <li><a href="our_work" class="link-dark">OUR WORK</a></li>
+   40            <li><a href="contact" class="link-dark">CONTACT</a></li>
+   41            <li class="social">
+
+/home/patrick/projects/bangarang/dist/weddings_test.html:
+   34              <li><a href="who_we_are.html" class="link-dark">WHO WE ARE</a></li>
+   35              <li><a href="what_we_do.html" class="link-dark">WHAT WE DO</a></li>
+   36:             <li><a href="our_work.html" class="link-dark">OUR WORK</a></li>
+   37              <li><a href="contact.html" class="link-dark">CONTACT</a></li>
+   38              <li class="social">
+
+/home/patrick/projects/bangarang/dist/what_we_do.html:
+   36            <li><a href="who_we_are">WHO WE ARE</a></li>
+   37            <li><a href="what_we_do">WHAT WE DO</a></li>
+   38:           <li><a href="our_work">OUR WORK</a></li>
+   39            <li><a href="contact">CONTACT</a></li>
+   40            <li class="social">
+
+/home/patrick/projects/bangarang/dist/who_we_are.html:
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38            <li><a href="what_we_do">WHAT WE DO</a></li>
+   39:           <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+   41            <li class="social">
+
+23 matches across 23 files
+
+
+Searching 11447 files for "what_we_do"
+
+/home/patrick/projects/bangarang/commercials.html:
+   36          <ul class="nav navbar-nav navbar-right text-center">
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   39            <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/contact.html:
+   36          <ul class="nav navbar-nav navbar-right text-center">
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   39            <li><a href="our-work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/corporate.html:
+   36          <ul class="nav navbar-nav navbar-right text-center">
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   39            <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/index.html:
+   37          <ul class="nav navbar-nav navbar-right text-center">
+   38            <li><a href="who_we_are">WHO WE ARE</a></li>
+   39:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   40            <li><a href="our_work">OUR WORK</a></li>
+   41            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/music.html:
+   36          <ul class="nav navbar-nav navbar-right text-center">
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   39            <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/our-work.html:
+   36          <ul class="nav navbar-nav navbar-right text-center">
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   39            <li><a href="our-work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/sports.html:
+   35          <ul class="nav navbar-nav navbar-right text-center">
+   36            <li><a href="who_we_are">WHO WE ARE</a></li>
+   37:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   38            <li><a href="our_work">OUR WORK</a></li>
+   39            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/test_sports.html:
+   33                  <ul class="nav navbar-nav navbar-right text-center">
+   34                      <li><a href="who_we_are.html">WHO WE ARE</a></li>
+   35:                     <li><a href="what_we_do.html">WHAT WE DO</a></li>
+   36                      <li><a href="our_work.html">OUR WORK</a></li>
+   37                      <li><a href="contact.html">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/viral.html:
+   36          <ul class="nav navbar-nav navbar-right text-center">
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   39            <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/weddings.html:
+   36          <ul class="nav navbar-nav navbar-right text-center nav-dark">
+   37            <li><a href="who_we_are" class="link-dark">WHO WE ARE</a></li>
+   38:           <li><a href="what_we_do" class="link-dark">WHAT WE DO</a></li>
+   39            <li><a href="our_work" class="link-dark">OUR WORK</a></li>
+   40            <li><a href="contact" class="link-dark">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/weddings_test.html:
+   33            <ul class="nav navbar-nav navbar-right text-center nav-dark">
+   34              <li><a href="who_we_are.html" class="link-dark">WHO WE ARE</a></li>
+   35:             <li><a href="what_we_do.html" class="link-dark">WHAT WE DO</a></li>
+   36              <li><a href="our_work.html" class="link-dark">OUR WORK</a></li>
+   37              <li><a href="contact.html" class="link-dark">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/what_we_do.html:
+   35          <ul class="nav navbar-nav navbar-right text-center">
+   36            <li><a href="who_we_are">WHO WE ARE</a></li>
+   37:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   38            <li><a href="our_work">OUR WORK</a></li>
+   39            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/who_we_are.html:
+   36          <ul class="nav navbar-nav navbar-right text-center">
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   39            <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/dist/commercials.html:
+   36          <ul class="nav navbar-nav navbar-right text-center">
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   39            <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/dist/contact.html:
+   36          <ul class="nav navbar-nav navbar-right text-center">
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   39            <li><a href="our-work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/dist/corporate.html:
+   36          <ul class="nav navbar-nav navbar-right text-center">
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   39            <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/dist/index.html:
+   37          <ul class="nav navbar-nav navbar-right text-center">
+   38            <li><a href="who_we_are">WHO WE ARE</a></li>
+   39:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   40            <li><a href="our_work">OUR WORK</a></li>
+   41            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/dist/music.html:
+   36          <ul class="nav navbar-nav navbar-right text-center">
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   39            <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/dist/our-work.html:
+   36          <ul class="nav navbar-nav navbar-right text-center">
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   39            <li><a href="our-work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/dist/our_work.html:
+   36          <ul class="nav navbar-nav navbar-right text-center">
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   39            <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/dist/sports.html:
+   35          <ul class="nav navbar-nav navbar-right text-center">
+   36            <li><a href="who_we_are">WHO WE ARE</a></li>
+   37:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   38            <li><a href="our_work">OUR WORK</a></li>
+   39            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/dist/test_sports.html:
+   33                  <ul class="nav navbar-nav navbar-right text-center">
+   34                      <li><a href="who_we_are.html">WHO WE ARE</a></li>
+   35:                     <li><a href="what_we_do.html">WHAT WE DO</a></li>
+   36                      <li><a href="our_work.html">OUR WORK</a></li>
+   37                      <li><a href="contact.html">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/dist/viral.html:
+   36          <ul class="nav navbar-nav navbar-right text-center">
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   39            <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/dist/weddings.html:
+   36          <ul class="nav navbar-nav navbar-right text-center nav-dark">
+   37            <li><a href="who_we_are" class="link-dark">WHO WE ARE</a></li>
+   38:           <li><a href="what_we_do" class="link-dark">WHAT WE DO</a></li>
+   39            <li><a href="our_work" class="link-dark">OUR WORK</a></li>
+   40            <li><a href="contact" class="link-dark">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/dist/weddings_test.html:
+   33            <ul class="nav navbar-nav navbar-right text-center nav-dark">
+   34              <li><a href="who_we_are.html" class="link-dark">WHO WE ARE</a></li>
+   35:             <li><a href="what_we_do.html" class="link-dark">WHAT WE DO</a></li>
+   36              <li><a href="our_work.html" class="link-dark">OUR WORK</a></li>
+   37              <li><a href="contact.html" class="link-dark">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/dist/what_we_do.html:
+   35          <ul class="nav navbar-nav navbar-right text-center">
+   36            <li><a href="who_we_are">WHO WE ARE</a></li>
+   37:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   38            <li><a href="our_work">OUR WORK</a></li>
+   39            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/dist/who_we_are.html:
+   36          <ul class="nav navbar-nav navbar-right text-center">
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   39            <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+
+27 matches across 27 files
+
+
+Searching 11447 files for "what_we_do"
+
+/home/patrick/projects/bangarang/commercials.html:
+   36          <ul class="nav navbar-nav navbar-right text-center">
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   39            <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/contact.html:
+   36          <ul class="nav navbar-nav navbar-right text-center">
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   39            <li><a href="our-work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/corporate.html:
+   36          <ul class="nav navbar-nav navbar-right text-center">
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   39            <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/index.html:
+   37          <ul class="nav navbar-nav navbar-right text-center">
+   38            <li><a href="who_we_are">WHO WE ARE</a></li>
+   39:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   40            <li><a href="our_work">OUR WORK</a></li>
+   41            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/music.html:
+   36          <ul class="nav navbar-nav navbar-right text-center">
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   39            <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/our-work.html:
+   36          <ul class="nav navbar-nav navbar-right text-center">
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   39            <li><a href="our-work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/sports.html:
+   35          <ul class="nav navbar-nav navbar-right text-center">
+   36            <li><a href="who_we_are">WHO WE ARE</a></li>
+   37:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   38            <li><a href="our_work">OUR WORK</a></li>
+   39            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/test_sports.html:
+   33                  <ul class="nav navbar-nav navbar-right text-center">
+   34                      <li><a href="who_we_are.html">WHO WE ARE</a></li>
+   35:                     <li><a href="what_we_do.html">WHAT WE DO</a></li>
+   36                      <li><a href="our_work.html">OUR WORK</a></li>
+   37                      <li><a href="contact.html">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/viral.html:
+   36          <ul class="nav navbar-nav navbar-right text-center">
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   39            <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/weddings.html:
+   36          <ul class="nav navbar-nav navbar-right text-center nav-dark">
+   37            <li><a href="who_we_are" class="link-dark">WHO WE ARE</a></li>
+   38:           <li><a href="what_we_do" class="link-dark">WHAT WE DO</a></li>
+   39            <li><a href="our_work" class="link-dark">OUR WORK</a></li>
+   40            <li><a href="contact" class="link-dark">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/weddings_test.html:
+   33            <ul class="nav navbar-nav navbar-right text-center nav-dark">
+   34              <li><a href="who_we_are.html" class="link-dark">WHO WE ARE</a></li>
+   35:             <li><a href="what_we_do.html" class="link-dark">WHAT WE DO</a></li>
+   36              <li><a href="our_work.html" class="link-dark">OUR WORK</a></li>
+   37              <li><a href="contact.html" class="link-dark">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/what_we_do.html:
+   35          <ul class="nav navbar-nav navbar-right text-center">
+   36            <li><a href="who_we_are">WHO WE ARE</a></li>
+   37:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   38            <li><a href="our_work">OUR WORK</a></li>
+   39            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/who_we_are.html:
+   36          <ul class="nav navbar-nav navbar-right text-center">
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   39            <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/dist/commercials.html:
+   36          <ul class="nav navbar-nav navbar-right text-center">
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   39            <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/dist/contact.html:
+   36          <ul class="nav navbar-nav navbar-right text-center">
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   39            <li><a href="our-work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/dist/corporate.html:
+   36          <ul class="nav navbar-nav navbar-right text-center">
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   39            <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/dist/index.html:
+   37          <ul class="nav navbar-nav navbar-right text-center">
+   38            <li><a href="who_we_are">WHO WE ARE</a></li>
+   39:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   40            <li><a href="our_work">OUR WORK</a></li>
+   41            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/dist/music.html:
+   36          <ul class="nav navbar-nav navbar-right text-center">
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   39            <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/dist/our-work.html:
+   36          <ul class="nav navbar-nav navbar-right text-center">
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   39            <li><a href="our-work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/dist/our_work.html:
+   36          <ul class="nav navbar-nav navbar-right text-center">
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   39            <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/dist/sports.html:
+   35          <ul class="nav navbar-nav navbar-right text-center">
+   36            <li><a href="who_we_are">WHO WE ARE</a></li>
+   37:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   38            <li><a href="our_work">OUR WORK</a></li>
+   39            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/dist/test_sports.html:
+   33                  <ul class="nav navbar-nav navbar-right text-center">
+   34                      <li><a href="who_we_are.html">WHO WE ARE</a></li>
+   35:                     <li><a href="what_we_do.html">WHAT WE DO</a></li>
+   36                      <li><a href="our_work.html">OUR WORK</a></li>
+   37                      <li><a href="contact.html">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/dist/viral.html:
+   36          <ul class="nav navbar-nav navbar-right text-center">
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   39            <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/dist/weddings.html:
+   36          <ul class="nav navbar-nav navbar-right text-center nav-dark">
+   37            <li><a href="who_we_are" class="link-dark">WHO WE ARE</a></li>
+   38:           <li><a href="what_we_do" class="link-dark">WHAT WE DO</a></li>
+   39            <li><a href="our_work" class="link-dark">OUR WORK</a></li>
+   40            <li><a href="contact" class="link-dark">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/dist/weddings_test.html:
+   33            <ul class="nav navbar-nav navbar-right text-center nav-dark">
+   34              <li><a href="who_we_are.html" class="link-dark">WHO WE ARE</a></li>
+   35:             <li><a href="what_we_do.html" class="link-dark">WHAT WE DO</a></li>
+   36              <li><a href="our_work.html" class="link-dark">OUR WORK</a></li>
+   37              <li><a href="contact.html" class="link-dark">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/dist/what_we_do.html:
+   35          <ul class="nav navbar-nav navbar-right text-center">
+   36            <li><a href="who_we_are">WHO WE ARE</a></li>
+   37:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   38            <li><a href="our_work">OUR WORK</a></li>
+   39            <li><a href="contact">CONTACT</a></li>
+
+/home/patrick/projects/bangarang/dist/who_we_are.html:
+   36          <ul class="nav navbar-nav navbar-right text-center">
+   37            <li><a href="who_we_are">WHO WE ARE</a></li>
+   38:           <li><a href="what_we_do">WHAT WE DO</a></li>
+   39            <li><a href="our_work">OUR WORK</a></li>
+   40            <li><a href="contact">CONTACT</a></li>
+
+27 matches across 27 files
